@@ -12,8 +12,8 @@ h2{
     border: 2px solid black;
     box-shadow: 0 0 20px rgb(128, 48, 48);
     padding:50px;
-    padding-top:80px;
-    padding-bottom: 80px;
+    padding-top:90px;
+    padding-bottom: 110px;
     width: 350px;
     height: 450px;
 }
@@ -25,13 +25,27 @@ label{
     }
 
 button[type="submit"] {
-     padding: 15px;
-            border-radius: 10px;
-            border: none;
-            background-color: #220bf0;
-            color: white;
-            cursor: pointer;
-            width: 100%;
-            font-size: 16px;
+     padding: 10px;
+     border-radius: 10px;
+     border: none;
+     background-color: #220bf0;
+     color: white;
+     cursor: pointer;
+     width: 100%;
+     font-size: 12px;
+    }
 
-}
+     input[type="repassword"],
+        input[type="Email Id"],
+        input[type="password"],
+        input[type="First name"],
+        input[type="last name"],
+        select{
+            width :100%;
+            margin-bottom: 5px;
+            box-shadow: 0 0 20px rgb(121, 74, 74);
+            padding: 5px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
