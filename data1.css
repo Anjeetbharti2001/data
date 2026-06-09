@@ -23,3 +23,15 @@ label{
      color: #555;
      font-weight: bold;
     }
+
+button[type="submit"] {
+     padding: 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: #220bf0;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+
+}
