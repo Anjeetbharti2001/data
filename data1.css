@@ -1,0 +1,25 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    color:red;
+}
+.f-container{
+    border: 2px solid black;
+    box-shadow: 0 0 20px rgb(128, 48, 48);
+    padding:50px;
+    padding-top:80px;
+    padding-bottom: 80px;
+    width: 350px;
+    height: 450px;
+}
+label{
+     display: block;
+     margin-bottom: 5px;
+     color: #555;
+     font-weight: bold;
+    }
